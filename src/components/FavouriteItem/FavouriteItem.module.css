@@ -1,0 +1,46 @@
+.container{
+    max-width: 1120px;
+    margin: auto;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.image{
+    background-color: #FEE9E2;
+    height: 50%;
+    /* width: 30%; */
+    padding: 10px;
+    position: relative;
+} 
+.image img{
+    display: block;
+    margin: auto;
+    
+}
+.cart{
+    display: flex;      
+}
+
+.title{
+    margin: auto;
+    padding: 30px;
+    
+}
+.prices{
+    font-weight: 600;   
+    font-size: 20px;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.titles {
+    font-weight: 700;   
+    font-size: 20px;
+}
+.subtitles{
+    color: gray;
+}

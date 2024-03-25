@@ -1,0 +1,100 @@
+.single-card{
+    max-width: 1120px;
+    margin: auto;
+    background-color: white;
+}
+
+li{
+    list-style: none;
+}
+.single-card__show-info{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.book-image{
+    background-color: #FEE9E2;
+    width: 40%;
+    padding: 40px;
+    position: relative;
+}
+.book-image img{
+    display: block;
+    margin: auto;
+    height: 80%;
+    width: 80%;
+}
+.heart-dislike{
+    background-color: rgb(18, 21, 18);
+    background-image: url(../../components/img/Heart.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+}
+
+.info{
+    width: 40%;
+    border-top: 2px solid 9;
+    padding: 40px 0 0 0;
+}
+.info li{
+    display: flex;
+    justify-content: space-between;
+}
+.info li:first-child{
+    margin-bottom: 45px;
+} 
+.book-info{
+    color: gray;
+    
+}
+.one-price{
+    font-weight: 600;   
+    font-size: 30px;
+}
+.select{
+    font-weight: 500;
+    padding: 25px 0;
+    border: none;
+    margin-bottom: 35px;
+}
+option{
+    line-height: 24px;
+}
+.add-cart{
+    width: 100%;
+    line-height: 55px;
+    color: white;
+    background-color: black;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+.prewiew{
+    width: 100%;
+    text-align: center;
+}
+.books-str{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin-bottom: 40px;
+    border-bottom: 2px solid gray;
+}
+/* .card-description p{
+    display: none;
+} */
+.books-str li{
+    width: 15%;
+    line-height: 60px;
+    text-align: center;
+    color: gray;
+}
+.books-str li:hover{
+    color: blue;
+    border-bottom: 2px solid black;
+}

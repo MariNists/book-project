@@ -1,0 +1,32 @@
+.bascet{
+    max-width: 1120px;
+    margin: auto;
+    background-color: white;
+ 
+}
+.single-card-title{
+    margin-bottom: 30px;
+}
+.check{
+    width: 25%;
+    line-height: 55px;
+    color: white;
+    background-color: black;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}    
+
+.total{
+    /* width: 30%; */
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    font-weight: 600;   
+    font-size: 30px;
+    
+}
+ 
+.book-info{
+    color: gray;
+    
+}
